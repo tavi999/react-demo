@@ -1,6 +1,8 @@
-# Tic Tac Toe Small App
+# TicTacToe Small App
 
-This is a demo react front-end project of the TicTacToe game, follow guide from https://react.dev/learn/tutorial-tic-tac-toe
+This is a demo react front-end project of the TicTacToe game.
+Follow guide from https://react.dev/learn/tutorial-tic-tac-toe
+
 
 # React + Vite
 

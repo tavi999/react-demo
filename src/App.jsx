@@ -1,23 +1,17 @@
-export default function Board() {
+import React from "react";
+import { Board } from "./components/Board/Board.jsx";
+
+function App() {
     return (
         <>
-            <div className="board-row">
-                <button className="square"></button>
-                <button className="square"></button>
-                <button className="square"></button>
-            </div>
-            <div className="board-row">
-                <button className="square"></button>
-                <button className="square"></button>
-                <button className="square"></button>
-            </div>
-            <div className="board-row">
-                <button className="square"></button>
-                <button className="square"></button>
-                <button className="square"></button>
-            </div>
+            <Board />
         </>
-    )
+    );
 }
+
+export default App;
+
+
+
 
 

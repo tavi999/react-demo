@@ -1,16 +1,9 @@
 import "./square.styles.css"
 
-function HandleClick() {
-    console.log("Clicked!");
-}
-export function Square({ value }) {
+export function Square({ value, onSquareClick}) {
     return (
         <>
-        <button
-            className="square"
-            onClick={HandleClick}>
-            { value }
-        </button>
+            <button className="square" onClick={onSquareClick}>{ value }</button>
         </>
     )
 }

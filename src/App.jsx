@@ -1,10 +1,10 @@
 import React from "react";
-import { Board } from "./components/Board/Board.jsx";
+import { Game } from "./components/Game/Game.jsx";
 
 function App() {
     return (
         <>
-            <Board />
+            <Game />
         </>
     );
 }
